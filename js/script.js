@@ -9,3 +9,8 @@
 //variabile per le difficoltà del gioco
     const difficoltàGioco = document.querySelector('select#difficoltà-gioco');
     console.log(difficoltàGioco);
+
+//ora devo creare un evento per il click del button-inizia
+    nuovaPartitaEl.addEventListener('click', function(){
+            generateNewGame(mainContenutoEl , difficoltàGioco);
+    });
