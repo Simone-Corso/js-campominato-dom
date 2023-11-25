@@ -3,17 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>campominato-dom</title>
+    <link rel="stylesheet" href="./">
+    <title>campominato-</title>
 </head>
 <body>
-    <div class="taskbar">
+    <header>
+        <!--inseriamo un header con titolo campominato-->
         <h1>
-            <button>
-                
-            </button>
+            Campominato
         </h1>
-    </div>
+        <div class="taskbar">
+            <button id="button-start">
+                Nuova Partita
+            </button>
+            <select name="select-difficulty" id="select-difficulty">
+                <option value="0">facile</option>
+                <option value="1">media-difficoltà</option>
+                <option value="2">difficile</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-content">
+        </section>
+        <footer>
+            <h2>
+                <span id="scoreboard">
+                    To start a new game press new game and click on a cell
+                </span>
+            </h2>
+        </footer>
+    </main>
 
     <script src="../js/script.js"></script>
 </body>
