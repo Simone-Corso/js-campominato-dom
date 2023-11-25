@@ -14,3 +14,15 @@
     nuovaPartitaEl.addEventListener('click', function(){
             generateNewGame(mainContenutoEl , difficoltàGioco);
     });
+
+
+    function generateNewGame(wrapperEl, selezionaLivello){
+        wrapperEl.innerHTML = '';
+
+        //creo una variabile per i punti
+        let giocatorePunti = 0;
+        let haiPerso = false;
+
+        const livello = parseInt(selezionaLivello.value);
+    }
+    
